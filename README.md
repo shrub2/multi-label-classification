@@ -11,6 +11,7 @@
 <b>To-do list. Last updated on 2022-12-04</b>
 
 - Reform the dataset so images match their respective classifications
+- Make 3 models for each classifier
 
 ---
 
