@@ -17,5 +17,6 @@
 
 <b>Resources</b>
 
-- [Bayes' theorem](https://en.wikipedia.org/wiki/Bayes%27_theorem)
 - [Pytorch tutorial](https://pytorch.org/tutorials/beginner/blitz/cifar10_tutorial.html)
+- [Bayes' theorem](https://en.wikipedia.org/wiki/Bayes%27_theorem)
+
