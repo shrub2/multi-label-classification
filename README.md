@@ -17,7 +17,5 @@
 
 <b>Resources</b>
 
-- [Beginner Machine Learning Project](https://www.youtube.com/watch?v=Hr06nSA-qww)
-- [Image Classification Project](https://www.youtube.com/watch?v=9xcky8jXQAM)
 - [Bayes' theorem](https://en.wikipedia.org/wiki/Bayes%27_theorem)
 - [Pytorch tutorial](https://pytorch.org/tutorials/beginner/blitz/cifar10_tutorial.html)
