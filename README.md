@@ -10,7 +10,7 @@
 
 <b>Sorting images to folders</b>
 
-To sort images into folders with desired labeling, run the <code>image-folder-sort.ipynb</code> in the main folder. In the same folder, the images must be located in the path 'images/train/' (or you can change the path in the code). 
+To sort images into folders, run the <code>image-folder-sort.ipynb</code> in the main folder. In the same folder, the images must be located in the path 'images/train/' (or you can change the path in the code). To sort them with desired labeling: 'GS1 Form', 'Material' or 'Colour', set the <code>column</code> to desired label, down in the last code block.
 
 <b>IMPORTANT!!!</b> <br>
 Make sure before running, in the second code block check if there are any missing files, by uncommenting <code>print(missing_file)</code>. 
