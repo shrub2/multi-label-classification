@@ -14,7 +14,8 @@ To sort images into folders with desired labeling, run the <code>image-folder-so
 
 <b>IMPORTANT!!!</b> <br>
 Make sure before running, in the second code block check if there are any missing files, by uncommenting <code>print(missing_file)</code>. 
-Currently, the only information missing is file's '8714100783528.jpg', so make sure it is deleted, or not in the folder. <br>
+Currently, the only information missing is file's '8714100783528.jpg', so make sure it is deleted, or not in the folder.
+
 Lastly, it seems that the information in .csv is not entirely accurate, but we can correct small mistakes like these manually, after sorting.
 
 ---
