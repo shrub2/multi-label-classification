@@ -24,9 +24,9 @@ Lastly, it seems that the information in .csv is not entirely accurate, but we c
 
 [x] Reform the dataset so images match their respective classifications
 
-[] Make 3 models for each classifier
+[ ] Make 3 models for each classifier
 
-[] Come up with a short presentation
+[ ] Come up with a short presentation
 
 ---
 
