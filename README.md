@@ -32,6 +32,6 @@ Lastly, it seems that the information in .csv is not entirely accurate, but we c
 
 <b>Resources</b>
 
-- [Pytorch tutorial](https://pytorch.org/tutorials/beginner/blitz/cifar10_tutorial.html)
+- [Pytorch tutorial](https://blog.paperspace.com/writing-cnns-from-scratch-in-pytorch/#cnn-from-scratch)
 - [Bayes' theorem](https://en.wikipedia.org/wiki/Bayes%27_theorem)
 
