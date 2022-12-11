@@ -4,7 +4,7 @@
 
 - Distinguish large set of grocery product images
 - The three meta-categories are: material, colour, and GS1 form
-- Dataset: [images.zip](https://drive.google.com/file/d/1752Ty8lDH9C4Iq3hqj-Uo5HFHjzXuXa5/view?usp=sharing).
+- Dataset: [images.zip](https://drive.google.com/file/d/1752Ty8lDH9C4Iq3hqj-Uo5HFHjzXuXa5/view?usp=sharing)
 
 ---
 
