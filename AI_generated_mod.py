@@ -120,7 +120,7 @@ def epoch(num_epochs, train_loader):
         print('Eotal time: ', epoch_time)
         print('Epoch [{}/{}], Loss: {:.4f}'.format(epoch+1, num_epochs, loss.item()))
     
-    print('Total time: ', total_time)
+    print('Total time: ', round(total_time, 2))
         
 
 def accuracy(cnn_):
