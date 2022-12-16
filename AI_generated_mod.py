@@ -3,6 +3,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import matplotlib.image as mpimg
 import time
+import os
 
 import torch
 import torchvision
@@ -15,7 +16,8 @@ import torch.nn as nn
 import torch.nn.functional as F
 
 import torch.optim as optim
-
+abspath = os.path.abspath(__file__)
+print(abspath)
 
 data_path = "images/train/"
 
