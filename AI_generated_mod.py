@@ -124,7 +124,7 @@ def epoch(num_epochs, train_loader):
         epoch_time = round(epoch_time_end - epoch_time_start, 2)
         total_time += epoch_time
 
-        print('Eotal time: ', epoch_time)
+        print('Epoch time: ', epoch_time)
         print('Epoch [{}/{}], Loss: {:.4f}'.format(epoch+1, num_epochs, loss.item()))
     
     print('Total time: ', round(total_time, 2))
