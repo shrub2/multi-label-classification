@@ -136,7 +136,7 @@ def accuracy(cnn_):
 
 def saver(cnn_):
     # saving model
-    torch.save(cnn_.state_dict(), "models/model_ai_Adamax.pth")
+    torch.save(cnn_.state_dict(), "models/model_ai_Adamax_2.pth")
     print("Saved current model.")
 
 def test():
@@ -147,7 +147,7 @@ def test():
         # print(img_path)
         # loading model
         cnn = CNN()
-        cnn.load_state_dict(torch.load("models/model_ai_Adamax.pth"))
+        cnn.load_state_dict(torch.load("models/model_ai_Adamax_2.pth"))
 
 
 
