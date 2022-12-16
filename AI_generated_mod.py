@@ -32,6 +32,11 @@ num_classes = len(classes)
 learning_rate = 0.001
 num_epochs = 10
 
+# change this variable to save and load specific models
+# to change the classifier optimizer you still need to change
+# it in the code 
+classifier_saved = 'models/model_ai_Adamax_2.pth'
+
 # normalizing data ...
 transform = transforms.Compose([transforms.Resize((32,32)),
                                     transforms.ToTensor(),
@@ -136,7 +141,7 @@ def accuracy(cnn_):
 
 def saver(cnn_):
     # saving model
-    torch.save(cnn_.state_dict(), "models/model_ai_Adamax_2.pth")
+    torch.save(cnn_.state_dict(), classifier_saved)
     print("Saved current model.")
 
 def test():
@@ -147,7 +152,7 @@ def test():
         # print(img_path)
         # loading model
         cnn = CNN()
-        cnn.load_state_dict(torch.load("models/model_ai_Adamax_2.pth"))
+        cnn.load_state_dict(torch.load(classifier_saved))
 
 
 
