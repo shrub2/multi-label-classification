@@ -20,7 +20,7 @@ There is a script <code>image-folder-sort.ipynb</code>, we use it to sort our da
 
 [ ] Make 3 models for each classifier
 
-[ ] Make a network acurracy test
+[ ] Make the network's acurracy test
 
 [ ] Come up with a short presentation
 
