@@ -4,7 +4,7 @@
 
 - Distinguish large set of grocery product images
 - The three meta-categories are: material, colour, and GS1 form
-- Dataset: [images.zip](https://drive.google.com/file/d/1752Ty8lDH9C4Iq3hqj-Uo5HFHjzXuXa5/view?usp=sharing)
+- Dataset: [train-dataset.zip](https://drive.google.com/file/d/1N8kAWPheOKPUovKV1Qk42VYoGhGaXhOi/view?usp=sharing)
 
 ---
 
@@ -14,15 +14,17 @@ There is a script <code>image-folder-sort.ipynb</code>, we use it to sort our da
 
 ---
 
-<b>To-do list. Last updated on 2022-12-10</b>
+<b>To-do list. Last updated on 2023-01-14</b>
 
 [x] Reform the dataset so images match their respective classifications
 
 [ ] Make 3 models for each classifier
 
-[ ] Make the network's acurracy test
+[ ] Rework the code so that images can be classified by multiple labels
 
-[ ] Come up with a short presentation
+[x] Make the network's acurracy test
+
+[ ] Discuss about the project before the exam
 
 ---
 
