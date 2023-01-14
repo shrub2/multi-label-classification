@@ -235,10 +235,15 @@ def test():
     # accuracy(cnn)
 
 if __name__ == '__main__':
+    st = time.perf_counter()
     # epoch(num_epochs, train_loader)
     graph_accuracy(epoch(num_epochs, train_loader))
     # test_accuracy(cnn, test_loader)
     saver(cnn)
+
+    et = time.perf_counter()
+    total = et-st
+    print(f'Total runtime: {round(total / 60, 2)} minutes.')
 
     #img = 'images/test/test_4.jpg'
     test()
