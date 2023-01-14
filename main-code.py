@@ -10,6 +10,7 @@ import torchvision
 import torchvision.transforms as transforms
 
 from PIL import Image
+from tqdm import tqdm
 
 import torch.nn as nn
 import torch.nn.functional as F
@@ -111,12 +112,12 @@ def epoch(num_epochs, train_loader):
     total_time = 0
     accuracies = []
     for epoch in range(num_epochs):
-        print(f'Epoch: {epoch + 1}')
+        # print(f'Epoch: {epoch + 1}')
         epoch_time_start = time.time()
         #Load in the data in batches using the train_loader object
-        for i, (images, labels) in enumerate(train_loader): 
-            if i % 10 == 0:
-                print(i)
+        for i, (images, labels) in enumerate(tqdm(train_loader, desc=(f'Epoch {epoch + 1}'))): 
+            # if i % 10 == 0:
+                # print(i)
             # print(i)
             # Move tensors to the configured device
             # images = images.to(device)
