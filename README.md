@@ -16,15 +16,15 @@ There is a script <code>image-folder-sort.ipynb</code>, we use it to sort our da
 
 <b>To-do list. Last updated on 2023-01-14</b>
 
-[x] Reform the dataset so images match their respective classifications
+- [x] Reform the dataset so images match their respective classifications
 
-[ ] Make 3 models for each classifier
+- [ ] Make 3 models for each classifier
 
-[ ] Rework the code so that images can be classified by multiple labels
+- [ ] Rework the code so that images can be classified by multiple labels
 
-[x] Make the network's acurracy test
+- [x] Make the network's acurracy test
 
-[ ] Discuss about the project before the exam
+- [ ] Discuss about the project before the exam
 
 ---
 
