@@ -18,7 +18,7 @@ There is a script <code>image-folder-sort.ipynb</code>, we use it to sort our da
 
 - [x] Reform the dataset so images match their respective classifications
 
-- [ ] Make 3 models for each classifier
+- [ ] Develop a custom DataLoader 
 
 - [ ] Rework the code so that images can be classified by multiple labels
 
