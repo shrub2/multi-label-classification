@@ -178,7 +178,7 @@ def test_accuracy(model, test_loader):
     total = 0
     print(f'Testing accuracy cumulative epochs\n please wait...')
     with torch.no_grad(): # temporarily set all the requires_grad flag to false
-        for images, labels in test_loader:
+        for images, labels in tqdm(test_loader, desc="Accuracy test"):
             # print(f'Doing something: {labels}')
             outputs = model(images)
             _, predicted = torch.max(outputs.data, 1)
