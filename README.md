@@ -15,7 +15,7 @@ There is a script <code>image-folder-sort.ipynb</code>, we use it to sort our da
 
 ---
 
-<b>To-do list. Last updated on 2023-01-16</b>
+<b>To-do list. Last updated on 2023-01-17</b>
 
 - [x] Reform the dataset so images match their respective classifications
 
