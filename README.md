@@ -21,13 +21,13 @@ There is a script <code>image-folder-sort.ipynb</code>, we use it to sort our da
 
 - [x] Develop a custom Dataset and DataLoader 
 
-- [ ] Add data split to training and validation
+- [x] Add data split to training and validation
 
-- [ ] Rework the training so it works with the custom dataset
+- [x] Rework the training so it works with the custom dataset
 
 - [x] Make the network's acurracy test
 
-- [ ] Discuss about the project before the exam
+- [x] Discuss about the project before the exam
 
 ---
 
