@@ -5,7 +5,6 @@
 - Distinguish large set of grocery product images
 - The three meta-categories are: material, colour, and GS1 form
 - Dataset: [train-dataset.zip](https://drive.google.com/file/d/1N8kAWPheOKPUovKV1Qk42VYoGhGaXhOi/view?usp=sharing)
-  - Important thing to note, in our finalized project we will use a single folder with all images, everything will be sorted within the code from the .csv file
 
 ---
 
