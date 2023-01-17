@@ -5,6 +5,7 @@
 - Distinguish large set of grocery product images
 - The three meta-categories are: material, colour, and GS1 form
 - Dataset: [train-dataset.zip](https://drive.google.com/file/d/1N8kAWPheOKPUovKV1Qk42VYoGhGaXhOi/view?usp=sharing)
+  - Important thing to note, in our finalized project we will use a single folder with all images, everything will be sorted within the code from the .csv file
 
 ---
 
@@ -14,13 +15,15 @@ There is a script <code>image-folder-sort.ipynb</code>, we use it to sort our da
 
 ---
 
-<b>To-do list. Last updated on 2023-01-14</b>
+<b>To-do list. Last updated on 2023-01-16</b>
 
 - [x] Reform the dataset so images match their respective classifications
 
-- [ ] Develop a custom DataLoader 
+- [x] Develop a custom Dataset and DataLoader 
 
-- [ ] Rework the code so that images can be classified by multiple labels
+- [ ] Add data split to training and validation
+
+- [ ] Rework the training so it works with the custom dataset
 
 - [x] Make the network's acurracy test
 
