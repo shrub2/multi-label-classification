@@ -44,7 +44,7 @@ num_epochs = 20
 # change this variable to save and load specific models
 # to change the classifier optimizer you still need to change
 # it in the code 
-classifier_saved = 'models/model_Adamax_form.pth'
+classifier_saved = 'models/model_Adam_form.pth'
 
 # normalizing data ...
 transform = transforms.Compose([transforms.Resize((32,32)),
@@ -88,8 +88,6 @@ class CNN(nn.Module):
         super(CNN, self).__init__()
         self.conv1 = nn.Conv2d(3, 32, 3)
         self.conv2 = nn.Conv2d(32, 64, 3)
-        # self.conv3 = nn.Conv2d(64, 128, 3) # new conv layer
-        # self.conv4 = nn.Conv2d(128, 256, 3) # new conv layer
 
         self.fc1 = nn.Linear(50176, 128)
         self.dropout = nn.Dropout(0.2) # new regularization layer
@@ -100,10 +98,6 @@ class CNN(nn.Module):
         x = F.relu(x)
         x = self.conv2(x)
         x = F.relu(x)
-        # x = self.conv3(x) # new layer
-        # x = F.relu(x) # new layer
-        # x = self.conv4(x) # new layer
-        # x = F.relu(x) # new layer
         
         x = x.view(x.size(0), -1)
         
@@ -240,7 +234,7 @@ def evaluate(model, valid_loader):
             _, predicted = torch.max(outputs.data, 1)  # get the predicted class
             total_correct += (predicted == labels).sum().item()  # count number of correct predictions
             total += labels.size(0)  # count total number of images
-            loss = criterion(outputs, labels)  # compute loss
+            loss = F.cross_entropy(outputs, labels)  # compute loss
             total_loss += loss.item()  # accumulate loss
 
     # compute average loss and accuracy
